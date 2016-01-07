@@ -4,7 +4,8 @@
   "description": "Simple Node.js module for demonstrating transitive dependency distribution and npm assurance aspects.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "preinstall": "whoami"
   },
   "repository": {
     "type": "git",
