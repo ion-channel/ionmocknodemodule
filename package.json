@@ -1,0 +1,23 @@
+{
+  "name": "ionmocknodemodule",
+  "version": "0.0.1",
+  "description": "Simple Node.js module for demonstrating transitive dependency distribution and npm assurance aspects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ion-channel/ionmocknodemodule.git"
+  },
+  "author": "Kit Plummer <kitplummer@gmail.com> (http://kitplummer.github.com)",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/ion-channel/ionmocknodemodule/issues"
+  },
+  "homepage": "https://github.com/ion-channel/ionmocknodemodule#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
