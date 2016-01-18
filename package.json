@@ -18,6 +18,9 @@
     "url": "https://github.com/ion-channel/ionmocknodemodule/issues"
   },
   "homepage": "https://github.com/ion-channel/ionmocknodemodule#readme",
+  "dependencies": {
+    "express", "4.13.2"
+  },
   "devDependencies": {
     "chai": "^3.4.1",
     "mocha": "^2.3.4"
